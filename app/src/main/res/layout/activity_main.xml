@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IPTV Player"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/etServer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Server URL"
+        android:textColorHint="#888888"
+        android:textColor="#FFFFFF"
+        android:background="#222222"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:inputType="textUri"
+        android:singleLine="true"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/etUser"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Benutzername"
+        android:textColorHint="#888888"
+        android:textColor="#FFFFFF"
+        android:background="#222222"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:singleLine="true"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Passwort"
+        android:textColorHint="#888888"
+        android:textColor="#FFFFFF"
+        android:background="#222222"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Verbinden"
+        android:textColor="#000000"
+        android:backgroundTint="#E8FF47"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/tvMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#E8FF47"
+        android:textSize="14sp"/>
+
+</LinearLayout>
